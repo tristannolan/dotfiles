@@ -1,0 +1,26 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260130_221946
+====================================================================================================
+
+1     |Info:    [ProfileManager] Found file: tristannolan.orp attempting to validate header
+1     |Info:    [ProfileManager] Valid v5 profile found for tristannolan
+69    |Info:    [ResourceManager] Initializing HID interfaces: Success
+69    |Info:    ------------------------------------------------------
+69    |Info:    |               Start device detection               |
+69    |Info:    ------------------------------------------------------
+76    |Info:    ------------------------------------------------------
+76    |Info:    |             Detecting I2C interfaces               |
+76    |Info:    ------------------------------------------------------
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1458:5001
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1458:5001
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1458:5001
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2489 Subsystem: 10DE:153C
+78    |Info:    ------------------------------------------------------
+78    |Info:    |               Detecting I2C devices                |
+78    |Info:    ------------------------------------------------------

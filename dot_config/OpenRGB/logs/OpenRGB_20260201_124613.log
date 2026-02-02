@@ -1,0 +1,53 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260201_124613
+====================================================================================================
+
+1     |Info:    [ProfileManager] Found file: tristannolan.orp attempting to validate header
+2     |Info:    [ProfileManager] Valid v5 profile found for tristannolan
+78    |Info:    [ResourceManager] Initializing HID interfaces: Success
+78    |Info:    ------------------------------------------------------
+78    |Info:    |               Start device detection               |
+78    |Info:    ------------------------------------------------------
+87    |Info:    ------------------------------------------------------
+87    |Info:    |             Detecting I2C interfaces               |
+87    |Info:    ------------------------------------------------------
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1458:5001
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1458:5001
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1458:5001
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2489 Subsystem: 10DE:153C
+88    |Info:    ------------------------------------------------------
+88    |Info:    |               Detecting I2C devices                |
+88    |Info:    ------------------------------------------------------
+871   |Info:    [Corsair Dominator Platinum] Registering RGB controller
+894   |Info:    [Corsair Dominator Platinum] Registering RGB controller
+1042  |Info:    ------------------------------------------------------
+1042  |Info:    |            Detecting I2C DIMM modules              |
+1042  |Info:    ------------------------------------------------------
+1900  |Info:    [ResourceManager] Detected occupied slot 1, bus 6, type DDR4
+3185  |Info:    [ResourceManager] Detected occupied slot 3, bus 6, type DDR4
+4239  |Info:    ------------------------------------------------------
+4239  |Info:    |               Detecting I2C PCI devices            |
+4239  |Info:    ------------------------------------------------------
+4241  |Info:    ------------------------------------------------------
+4241  |Info:    |               Detecting HID devices                |
+4241  |Info:    ------------------------------------------------------
+4387  |Info:    [B550M DS3H] Registering RGB controller
+4387  |Info:    ------------------------------------------------------
+4387  |Info:    |            Detecting libusb HID devices            |
+4387  |Info:    ------------------------------------------------------
+4406  |Info:    ------------------------------------------------------
+4406  |Info:    |              Detecting other devices               |
+4406  |Info:    ------------------------------------------------------
+4429  |Info:    [ResourceManager] Calling Post-detection callbacks
+4429  |Info:    ------------------------------------------------------
+4429  |Info:    |                Detection completed                 |
+4429  |Info:    ------------------------------------------------------
+4430  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x58
+4430  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x5A
+4430  |Info:    [ProfileManager] Profile loading: Succeeded for B550M DS3H @ HID: /dev/hidraw6

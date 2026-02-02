@@ -1,0 +1,50 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260130_223218
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: tristannolan.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for tristannolan
+52    |Info:    [ResourceManager] Initializing HID interfaces: Success
+53    |Info:    ------------------------------------------------------
+53    |Info:    |               Start device detection               |
+53    |Info:    ------------------------------------------------------
+63    |Info:    ------------------------------------------------------
+63    |Info:    |             Detecting I2C interfaces               |
+63    |Info:    ------------------------------------------------------
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2489 Subsystem: 10DE:153C
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1458:5001
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 10DE:2489 Subsystem: 10DE:153C
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2489 Subsystem: 10DE:153C
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2489 Subsystem: 10DE:153C
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1458:5001
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1458:5001
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2489 Subsystem: 10DE:153C
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2489 Subsystem: 10DE:153C
+64    |Info:    ------------------------------------------------------
+64    |Info:    |               Detecting I2C devices                |
+64    |Info:    ------------------------------------------------------
+844   |Info:    [Corsair Dominator Platinum] Registering RGB controller
+867   |Info:    [Corsair Dominator Platinum] Registering RGB controller
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |            Detecting I2C DIMM modules              |
+1014  |Info:    ------------------------------------------------------
+1872  |Info:    [ResourceManager] Detected occupied slot 1, bus 6, type DDR4
+3157  |Info:    [ResourceManager] Detected occupied slot 3, bus 6, type DDR4
+4211  |Info:    ------------------------------------------------------
+4211  |Info:    |               Detecting I2C PCI devices            |
+4211  |Info:    ------------------------------------------------------
+4212  |Info:    ------------------------------------------------------
+4212  |Info:    |               Detecting HID devices                |
+4212  |Info:    ------------------------------------------------------
+4307  |Info:    [B550M DS3H] Registering RGB controller
+4307  |Info:    ------------------------------------------------------
+4307  |Info:    |            Detecting libusb HID devices            |
+4307  |Info:    ------------------------------------------------------
+4327  |Info:    ------------------------------------------------------
+4327  |Info:    |              Detecting other devices               |
+4327  |Info:    ------------------------------------------------------
+4343  |Info:    [ResourceManager] Calling Post-detection callbacks
+4343  |Info:    ------------------------------------------------------
+4343  |Info:    |                Detection completed                 |
+4343  |Info:    ------------------------------------------------------
