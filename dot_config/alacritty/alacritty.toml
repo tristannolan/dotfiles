@@ -1,0 +1,8 @@
+colors.primary.background = "#1e1e2e"
+colors.primary.foreground = "#cad3f5"
+
+window.opacity = 0.93
+
+font.normal = { family="Jet Brains Mono", style="Regular" }
+font.size = 10.25
+font.offset = { x = 0, y = 0 }
