@@ -15,6 +15,7 @@
 mode=safe
 
 keyboard_layout=us
+boot_mode=""
 
 ###############
 #  Arguments  #
@@ -95,14 +96,20 @@ echo "Keyboard Layout: $keyboard_layout"
 run_if_live "loadkeys $keyboard_layout"
 
 # Boot Mode
-case $(cat /sys/firmware/efi/fw_platform_size) in
-	64)
-		echo "Boot Mode: 64-bit x64 UEFI"
-		;;
-	32)
-		abort "Automatic install not configured for 32 bit system"
-		;;
-	*)
-	# EUFI not found, likely in BIOS mode
-	;;
-esac
+if [ -d /sys/firmware/efi ]; then
+	case $(cat /sys/firmware/efi/fw_platform_size) in
+		64)
+			echo "Boot Mode: 64-bit x64 UEFI"
+			boot_mode="uefi"
+			;;
+		32)
+			abort "Automatic install not configured for 32-bit UEFI"
+			;;
+		*)
+			abort "Unknown platform size" "Unable to determine if UEFI is 64 or 32 bit"
+			;;
+	esac
+else
+	echo "Boot Mode: BIOS"
+	boot_mode="bios"
+fi
