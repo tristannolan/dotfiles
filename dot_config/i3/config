@@ -128,8 +128,6 @@ bindsym $mod+Shift+p move container to workspace number $ws4
 
 bindsym $mod+Shift+b move container to workspace number $ws10
 
-assign [class="Firefox"] $ws10
-
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -193,19 +191,20 @@ set $border_size 2
 set $clr_unused #00000000
 
 gaps inner 8
+gaps top 39
 
 default_border pixel $border_size
 default_floating_border pixel $border_size
 for_window [class="^.*"] border pixel $border_size
 
 # Color class           border		backgr.		text		indicator	child_border
-client.focused          $clr_unused $clr_unused $clr_unused $pink	$pink
-client.focused_inactive $clr_unused $clr_unused $clr_unused #33333300	#33333300
-client.unfocused        $clr_unused $clr_unused $clr_unused $clr_unused #00000000
-client.urgent           $clr_unused $clr_unused $clr_unused $clr_unused #00000000
-client.placeholder      $clr_unused $clr_unused $clr_unused $clr_unused #00000000
+client.focused          $clr_unused $clr_unused $clr_unused $pink		$pink
+client.focused_inactive $clr_unused $clr_unused $clr_unused $crust		$crust
+client.unfocused        $clr_unused $clr_unused $clr_unused $clr_unused $crust
+client.urgent           $clr_unused $clr_unused $clr_unused $clr_unused $crust
+client.placeholder      $clr_unused $clr_unused $clr_unused $clr_unused $crust
 
-client.background       #ffffff
+client.background       $crust
 
 # New instance
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
@@ -214,3 +213,5 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id ~/.fehbg
 exec --no-startup-id solaar --window=hide
 exec --no-startup-id openrgb --profile ~/.config/OpenRGB/tristannolan.orp --startminimized
+
+exec udiskie &
