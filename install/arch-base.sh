@@ -371,7 +371,7 @@ esac
 # Select a nearby mirror server
 reflector						\
 	-l 20						\
-	--country '"${country}"'	\
+	--country "'${country}'"	\
 	--age 12					\
 	--protocol https			\
 	--sort rate					\
