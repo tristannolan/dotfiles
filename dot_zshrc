@@ -13,5 +13,6 @@ bindkey -v
 alias vim=nvim
 alias air="~/go/bin/air"
 alias templ="~/go/bin/templ"
+alias gba='git branch -a | sed "/^\\* /! s/^/  /"'
 
 PROMPT="%B%{%F{219}%}% %1~ %{%f%}› %b"
