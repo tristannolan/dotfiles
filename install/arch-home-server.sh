@@ -58,6 +58,8 @@ pacstrap /mnt		\
 	openssh			\
 	intel-ucode		\
 	sudo			\
+	man				\
+	git				\
 
 genfstab /mnt >> /mnt/etc/fstab
 
